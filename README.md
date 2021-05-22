@@ -1,8 +1,8 @@
 # JavaScript
 練習コード<br>
 <br>
-年を入れてLeapYearであるかを確認。<br>
-<a href="https://katchion13.github.io/Java_Script/Leap_Year" target="_blank">https://katchion13.github.io/Java_Script/Leap_Year</a><br>
+年を入れて閏年であるかを確認。<br>
+<a href="https://katchion13.github.io/Java_Script/Leap_Year" rel=”noopener”>Gitで上げた閏年コード</a><br>
 <br>
 プロフではHTMLってなってますが、JavaScriptです。<br>
 <br>
