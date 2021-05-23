@@ -14,6 +14,6 @@ JavaScriptとCSSのアクション<br>
 <br>
 プロフではHTMLってなってますが、JavaScriptです。<br>
 <br>
-22/05/2021<br>
+22/05/2021 ⇒ 24/05/2021<br>
 
 #JavaScript
