@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>勉強の練習</title>
+<style>
+body{
+display:flex;
+flex-wrap:wrap;
+}
+.box{
+width:100px;
+height:100px;
+background-color: skyblue;
+cursor:pointer;
+transition:0.8s;
+margin:0 8px 8px 0;
+}
+.circle{
+background: pink;
+border-radius: 50%;
+transform:rotate(deg);
+
+}
+</style>
+</head>
+
+<body>   
+<script>
+'use strict';
+
+for(let i=0; i<30; i++){
+const div = document.createElement('div');
+div.classList.add('box');
+
+div.addEventListener('click',()=>{
+div.classList.toggle('circle');
+});
+document.body.appendChild(div);
+
+}
+</script>
+</body>
+</html>

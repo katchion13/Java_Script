@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>勉強の練習</title>
+<style>
+.box{
+width:100px;
+height:100px;
+background-color: skyblue;
+cursor:pointer;
+transition:0.8s;
+}
+.circle{
+background: pink;
+border-radius: 50%;
+transform:rotate;
+
+}
+
+
+
+</style>
+</head>
+
+<body>   
+<div class="box" id="target"></div>
+
+<script>
+'use strict';
+
+const target = document.getElementById('target')
+
+target.addEventListener('click',()=>{
+
+target.classList.toggle('circle');
+
+});
+</script>
+</body>
+</html>
