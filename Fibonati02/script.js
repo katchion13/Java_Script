@@ -5,8 +5,7 @@ function fibo(){
   var numero;
 	document.write("<b>WhileとLoopsを使ったフィボナッチ </b><br />");
 	var penultimo=0, ultimo=1;
-        var numero;
-		document.write(termo + "より数字が低いフィボナッチ数列"+"<br />");
+    		document.write(termo + "より数字が低いフィボナッチ数列"+"<br />");
 		while(penultimo<termo)
 		{
 			document.write(penultimo + "<br />");
