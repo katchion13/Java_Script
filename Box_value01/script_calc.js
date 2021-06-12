@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
       var papel = parseFloat(sel.value.replace(",","."));
       var quant = qtd.value; // valor do INPUT quantidade
       var res = papel * quant; // faz a multiplicação
-      document.querySelector("input[name='valor']").value = !isNaN(res) ? res.toFixed(0).replace(".", ",") :　円;
+      document.querySelector("input[name='valor']").value = !isNaN(res) ? ;
    }
 
 });
