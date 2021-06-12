@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
       var papel = sel;
       var quant = qtd.value; // valor do INPUT quantidade
       var res = papel * quant; // faz a multiplicação
-      document.querySelector("input[name='valor']").value = !isNaN(res) ? res.toFixed(2).replace(".", ",") : 0;
+      document.querySelector("input[name='valor']").value = !isNaN(res) ?  : 0;
    }
 
 });
