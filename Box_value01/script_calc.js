@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
    qtd.oninput = multi; // evento oninput do INPUT quantidade
 
    function multi(){
-      var papel = parseFloat(sel.value.replace(",","."));
+      var papel = sel;
       var quant = qtd.value; // valor do INPUT quantidade
       var res = papel * quant; // faz a multiplicação
-      document.querySelector("input[name='valor']").value = !isNaN(res) ? ;
+      document.querySelector("input[name='valor']").value = !isNaN(res) ? res.toFixed(2).replace(".", ",") : 0;
    }
 
 });
