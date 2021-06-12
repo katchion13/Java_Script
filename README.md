@@ -16,8 +16,8 @@ JavaScriptとCSSのアクション<br>
 <br>
 22/05/2021 ⇒ 24/05/2021<br>
 <br>
-<a href="https://katchion13.github.io/Java_Script/Box_value01" rel=”noopener”>Combo box：バージョン01</a><br>
-<a href="https://katchion13.github.io/Java_Script/Box_value01/index_select.html" rel="noopener">Combo box：バージョン02</a><br>
-<a href="https://katchion13.github.io/Java_Script/Box_value01/index_calc.html" rel="noopener">Combo box：バージョン03</a><br>
+<a href="https://katchion13.github.io/Java_Script/Box_value01" rel=”noopener”>Combo box：バージョン01(セレクト)</a><br>
+<a href="https://katchion13.github.io/Java_Script/Box_value01/index_select.html" rel="noopener">Combo box：バージョン02(多数セレクト)</a><br>
+<a href="https://katchion13.github.io/Java_Script/Box_value01/index_calc.html" rel="noopener">Combo box：バージョン03(自動計算)</a><br>
 
-#JavaScript
+#JavaScript()
