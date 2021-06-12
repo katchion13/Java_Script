@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
       var papel = papel.value;
       var quant = qtd.value; // valor do INPUT quantidade
       var res = papel * quant; // faz a multiplicação
-      document.querySelector("input[name='valor']");
+      
    }
 
 });
