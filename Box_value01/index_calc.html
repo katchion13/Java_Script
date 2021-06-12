@@ -1,27 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
  <script type="text/javascript" src="script_calc.js"></script>
-      <h2>Calculator</h2>
-      <table border="1">
-          <tr>
-            <td>Value 1: </td>
-            <td><input type="text" id="value1" name="value1"/></td>
-          </tr>
-          <tr>
-            <td>Value 2: </td>
-            <td><input type="text" id="value2" name="value2" /></td>
-          </tr>
-          <tr>
-            <td>Operator: </td>
-            <td><select id="operator">
-            <option value="Add">+</option>
-            <option value="Subtract">-</option>
-            <option value="Multiply">*</option>
-            <option value="Divide">/</option>
-            </select></td>
-          </tr>
-          <tr>
-            <td>Result: </td>
-            <td><input type="text" id="result" name="result" /></td>
-          </tr>
-      </table>
-      <input type="submit" id="btn_sub" name="btn_sub" value="Submit" onclick="calculate()" />
-      <input type="reset" id="btn_res" name="btn_res" value="Reset" />
+
+</head>
+<body>
+  <form name="form1" action="">
+    <select id="Select1" size="10" multiple>
+      <option>要素1</option>
+      <option>要素2</option>
+      <option>要素3</option>
+      <option>要素4</option>
+      <option>要素5</option>
+      <option>要素6</option>
+      <option>要素7</option>
+      <option>要素8</option>
+    </select>
+    <input type="button" value="表示" onclick="onButtonClick();" />
+  </form>
+
+  <div id="output"></div>
+</body>
+</html>
