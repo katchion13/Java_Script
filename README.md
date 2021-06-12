@@ -15,7 +15,9 @@ JavaScriptとCSSのアクション<br>
 プロフではHTMLってなってますが、JavaScriptです。<br>
 <br>
 22/05/2021 ⇒ 24/05/2021<br>
-
+<br>
+<a href="https://katchion13.github.io/Java_Script/Box_value01/index_calc.html">Combo box02</a><br>
+<a href="https://katchion13.github.io/Java_Script/Box_value01/index_select.html">Combo box01</a><br>
 <a href="https://katchion13.github.io/Java_Script/Box_value01" rel=”noopener”>Combo box</a><br>
 
 #JavaScript
