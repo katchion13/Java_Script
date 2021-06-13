@@ -1,5 +1,5 @@
   function onButtonClick() {
-      selindex = document.form1.Select1.selectedIndex;
+      selindex = document.form2.Select1.selectedIndex;
       target = document.getElementById("output");
       switch (selindex) {
         case 0:
