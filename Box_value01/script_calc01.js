@@ -1,6 +1,6 @@
   function onButtonClick2() {
       selindex = document.form2.Select2.selectedIndex;
-      target = document.getElementById("output");
+      target = document.getElementById("output2");
       switch (selindex) {
         case 0:
           target.innerHTML = "100円<br/>";
