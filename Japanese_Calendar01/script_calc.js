@@ -5,11 +5,17 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
    sel.onchange = multi; // evento change do SELECT
    qtd.oninput = multi; // evento oninput do INPUT quantidade
 
-   function multi(){
-      var ano_cal = ano.value;
-      var anojp_cal = anojp.value; // valor do INPUT quantidade
-      var res = ano_cal * anojp_cal; // faz a multiplicação
-      document.querySelector("input[name='valor']").value = !isNaN(res) ? res.toFixed(0).replace() : 0;
-   }
-
+   function passCheck(result){
+  if (result > 2019){
+    if (result > 90){
+      console.log('令和です');
+      console.log('おめでとうございます');
+    }else{
+      console.log('修正して再提出してください');
+    }
+  }else{
+    console.log('不合格です');
+    console.log('残念でした');
+  }
+}
 });
