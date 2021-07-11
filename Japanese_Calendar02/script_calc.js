@@ -1,22 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carregar
 
-   var sel = document.querySelector("select[name='papel']"); // seleciona o SELECT
-   var qtd = document.querySelector("input[name='quantidade']"); // seleciona o INPUT quantidade
-   sel.onchange = result; // evento change do SELECT
-   qtd.oninput = result; // evento oninput do INPUT quantidade
+   var anojp = document.querySelector("select[name='ano']"); // seleciona o SELECT
+   anojp.onchange = result; // evento change do SELECT
 
    function passCheck(result){
-  if (result > 80){
+  if (result > 2019){
     if (result > 90){
-      console.log('合格です');
-      console.log('おめでとうございます');
-    }else{
+      console.log('令和です');
+        }else{
       console.log('修正して再提出してください');
     }
   }else{
     console.log('不合格です');
-    console.log('残念でした');
-  }
+    }
 }
 
 passCheck(78);
