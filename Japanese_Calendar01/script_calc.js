@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
 
    var ano= document.querySelector("select[name='ano']"); // seleciona o SELECT
    var anojp = document.querySelector("input[name='anojp']"); // seleciona o INPUT quantidade
-   ano.onchange = multi; // evento change do SELECT
-   anojp.oninput = multi; // evento oninput do INPUT quantidade
+   ano.onchange = result; // evento change do SELECT
+   anojp.oninput = result; // evento oninput do INPUT quantidade
 
-   function passCheck(ano){
-  if (ano > 2019){
-    if (ano > 90){
-      console.log('令和です');
+   function passCheck(result){
+  if (result > 2019){
+    if (result > 90){
+      console.log('合格です');
       console.log('おめでとうございます');
     }else{
       console.log('修正して再提出してください');
@@ -18,4 +18,14 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
     console.log('残念でした');
   }
 }
-});
+
+passCheck(78);
+>> 不合格です
+>> 残念でした
+
+passCheck(84);
+>> 修正して再提出してください
+
+passCheck(98);
+>> 合格です
+>> おめでとうございます
