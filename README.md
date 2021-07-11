@@ -22,7 +22,7 @@ JavaScriptとCSSのアクション<br>
 これを、自動で出せるようにプログラミングする。
 
 <a href="https://katchion13.github.io/Java_Script/Japanese_Calendar" rel="noopener">日本歴を西歴</a><br>
-<a href="https://katchion13.github.io/Java_Script/Japanese_Calendar01/" rel="noopener">日本歴を西歴に：バージョン01</a><br>
+<a href="https://katchion13.github.io/Java_Script/Japanese_Calendar01/" rel="noopener">日本歴を西歴に：バージョン01(js無しのそのままvalue表示)</a><br>
 <a href="https://katchion13.github.io/Java_Script/Japanese_Calendar02/" rel="noopener">日本歴を西歴に：バージョン02←途中</a><br>
 
 11/07/2021<br>
