@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carre
 
    var ano= document.querySelector("select[name='ano']"); // seleciona o SELECT
    var anojp = document.querySelector("input[name='anojp']"); // seleciona o INPUT quantidade
-   sel.onchange = multi; // evento change do SELECT
-   qtd.oninput = multi; // evento oninput do INPUT quantidade
+   ano.onchange = multi; // evento change do SELECT
+   anojp.oninput = multi; // evento oninput do INPUT quantidade
 
    function passCheck(ano){
   if (ano > 2019){
