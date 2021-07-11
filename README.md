@@ -18,4 +18,11 @@ JavaScriptとCSSのアクション<br>
 <a href="https://katchion13.github.io/Java_Script/Box_value01/index_select.html" rel="noopener">Combo box：バージョン02(多数セレクト)</a><br>
 <a href="https://katchion13.github.io/Java_Script/Box_value01/index_calc.html" rel="noopener">Combo box：バージョン03(自動計算)←途中</a><br>
 
+日本のカレンダーが解らんから作ってみる。
+これを、自動で出せるようにプログラミングする。
+
+<a href="https://katchion13.github.io/Java_Script/Japanese_Calendar" rel="noopener">日本歴を西歴に</a><br>
+
+11/07/2021<br>
+
 #JavaScript()
