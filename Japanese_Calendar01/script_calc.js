@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function(){ // aguarda o DOM carregar
 
-   var result= document.querySelector("select[name='ano']"); // seleciona o SELECT
+   var ano= document.querySelector("select[name='ano']"); // seleciona o SELECT
    var anojp = document.querySelector("input[name='anojp']"); // seleciona o INPUT quantidade
    sel.onchange = multi; // evento change do SELECT
    qtd.oninput = multi; // evento oninput do INPUT quantidade
 
-   function passCheck(result){
-  if (result > 2019){
-    if (result > 90){
+   function passCheck(ano){
+  if (ano > 2019){
+    if (ano > 90){
       console.log('令和です');
       console.log('おめでとうございます');
     }else{
